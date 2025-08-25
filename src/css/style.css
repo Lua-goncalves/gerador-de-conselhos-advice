@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  background-color: var(--Cor-de-fundo);
+  font-family: "Manrope", sans-serif;
+ font-weight: 800;
+ color: var(--Cor-do-texto);
+ height: 100vh;
+ font-size: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: var(--Cor-do-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  gap: 5px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card .numero {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 10px;
+  color: var(--Cor-do-botão-do-card-e-do-texto);
+  
+}
+.card .texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(10px);
+}
+
+.card .img-borda img{
+  width: 20vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transform: translateY(20px);
+}
+
+.card button {
+  background-color: var(--Cor-do-botão-do-card-e-do-texto);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transform: translateY(50px);
+}
+
+.card button:hover {
+  color: #53ffab;
+  cursor: pointer;
+  box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
